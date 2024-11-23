@@ -77,14 +77,27 @@ ASGI_APPLICATION = 'mysite.asgi.application'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
 
+# Local Postgres
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'IT120',
+#         "USER": "postgres",
+#         "PASSWORD": "chelsea0710",
+#         "HOST": "127.0.0.1",
+#         "PORT": "5432",
+#     }
+# }
+
+# SUPABASE
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'IT120',
-        "USER": "postgres",
-        "PASSWORD": "chelsea0710",
-        "HOST": "127.0.0.1",
-        "PORT": "5432",
+        'NAME': 'postgres',
+        "USER": "postgres.ecytcqqwculiuhjeytei",
+        "PASSWORD": "omaygat_oshet",
+        "HOST": "aws-0-us-east-1.pooler.supabase.com",
+        "PORT": "6543",
     }
 }
 
