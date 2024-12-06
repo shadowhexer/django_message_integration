@@ -24,7 +24,7 @@ Source code: https://www.twilio.com/en-us/blog/bulk-sms-service-django-twilio
     or install all dependecies from requirments.txt
 
     ```
-    pip install -r 'requirements.txt'
+    pip install -r requirements.txt
     ```
 
 4. Run the server
