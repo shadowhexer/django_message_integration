@@ -70,7 +70,7 @@ const getCsrfToken = () => {
 
   <v-app class="h-0 my-5">
     <v-form class="d-flex flex-row" ref="submitForm" @submit.prevent="forms().submit">
-      <v-text-field v-model="inputGrade" label="Input something..." :counter="20" maxLength="20" />
+      <v-text-field bg-color="surface-variant" v-model="inputGrade" label="Input something..." :counter="20" maxLength="20" variant="outlined" />
 
       <v-dialog max-width="500" v-model="dialog" persistent>
 
