@@ -20,6 +20,12 @@ See [Vite Configuration Reference](https://vite.dev/config/).
 npm install
 ```
 
+## Project Setup
+
+```sh
+npm i vuetify
+```
+
 ### Compile and Hot-Reload for Development
 
 ```sh
