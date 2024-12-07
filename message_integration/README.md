@@ -32,4 +32,4 @@ Source code: https://www.twilio.com/en-us/blog/bulk-sms-service-django-twilio
     (venv)C:\path\to\your\message_integration>py manage.py runserver
     ```
 
-5. Rename the `.env.sample` to `.env` and fill in all the values required.
+5. Rename the `.env.sample` inside the message_integration folder (child of the parent folder of the same name) to `.env` and fill in all the values required.
