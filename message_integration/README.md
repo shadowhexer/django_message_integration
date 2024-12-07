@@ -4,7 +4,7 @@ Source code: https://www.twilio.com/en-us/blog/bulk-sms-service-django-twilio
 
 ## It is recommended to run Django in a virtual environment
 
-1. Create virtual environment in the folder
+1. Create virtual environment inside message_integration folder (not in the folder of the same name located within message_integration)
     ```
     py -m venv venv
     ```
