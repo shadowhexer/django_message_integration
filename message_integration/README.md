@@ -4,21 +4,21 @@ Source code: https://www.twilio.com/en-us/blog/bulk-sms-service-django-twilio
 
 ## It is recommended to run Django in a virtual environment
 
-1. Create virtual environment
+1. Create virtual environment in the folder
     ```
-    py -m venv message_integration
+    py -m venv venv
     ```
  
 2. Activate the virtual environment
 
     ```
-    C:\path\to\your\message_integration>Scripts\activate
+    C:\path\to\your\message_integration>venv\Scripts\activate
     ```
 
 3. Install Django, Twilio, Django-environ
 
     ```
-    (message_integration)C:\path\to\your\message_integration>pip install django twilio django-environ
+    (venv)C:\path\to\your\message_integration>pip install django twilio django-environ
     ```
 
     or install all dependecies from requirments.txt
@@ -29,7 +29,7 @@ Source code: https://www.twilio.com/en-us/blog/bulk-sms-service-django-twilio
 
 4. Run the server
     ```
-    (message_integration)C:\path\to\your\message_integration>py manage.py runserver
+    (venv)C:\path\to\your\message_integration>py manage.py runserver
     ```
 
-5. Contact me for the .env file in message_integration folder
+5. Rename the `.env.sample` to `.env` and fill in all the values required.
