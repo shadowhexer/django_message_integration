@@ -61,7 +61,7 @@ const getCsrfToken = () => {
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="150" height="125" />
 
     <div class="wrapper">
       <HelloWorld msg="Vue + Vuetify + Django" />
@@ -70,8 +70,7 @@ const getCsrfToken = () => {
 
   <v-app class="h-0 my-5">
     <v-form class="d-flex flex-row" ref="submitForm" @submit.prevent="forms().submit">
-      <v-text-field v-model="inputGrade" label="Input something..." :counter="20" maxLength="20" />
-
+      <v-text-field v-model="inputGrade" label="Input something..." :counter="20" maxLength="20" variant="outlined" />
       <v-dialog max-width="500" v-model="dialog" persistent>
 
         <template #activator="{ props }">

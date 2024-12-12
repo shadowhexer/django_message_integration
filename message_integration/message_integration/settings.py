@@ -31,7 +31,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-TWILIO_ACCOUNT_SID = env("MY_ACCOUNT_SID")
+TWILIO_ACCOUNT_SID = env("TWILIO_ACCOUNT_SID")
 TWILIO_AUTH_TOKEN = env("TWILIO_AUTH_TOKEN")
 TWILIO_NUMBER = env("MY_TWILIO_NUMBER")
 SMS_BROADCAST_TO_NUMBERS = env.list("SEND_TO"),
@@ -90,16 +90,7 @@ WSGI_APPLICATION = 'message_integration.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': env('DB_ENGINE'),
-        "NAME": env('DB_NAME'),
-        "USER": env('DB_USER'),
-        "PASSWORD": env('DB_PASS'),
-        "HOST": env('DB_HOST'),
-        "PORT": env('DB_PORT'),
-    }
-}
+
 
 
 # Password validation
